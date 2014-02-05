@@ -32,7 +32,13 @@ function anagrammedName(name) {
 	}
 	else if (name == "Allen Newell") {
 		return "Ellen All New";
-	}		
+	}
+	else if (name == "Lucy Suchman") {
+		return "Lunacy Chums";
+	}
+	else if (name == "Grace Hopper") {
+		return "Gear Chopper";
+	}
 	else {
 		console.log(name + " not known for anagramming.");
 		return name;
